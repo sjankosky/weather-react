@@ -1,0 +1,56 @@
+current-date {
+  color: #5a6275;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 1;
+}
+.current-date:first-letter {
+  text-transform: capitalize;
+}
+.city-date-position {
+  margin-top: 25px;
+  padding: 0;
+}
+#current-temp,
+.formatDegree {
+  font-size: 30px;
+}
+.formatUnits {
+  font-size: 10px;
+  position: relative;
+  top: -12px;
+}
+#farenheit {
+  padding-left: 5px;
+}
+.search,
+.currentTemp {
+  background: white;
+  color: #596aca;
+  border-color: #596aca;
+  transition: all 150ms ease-in-out;
+  border-width: medium;
+  border-style: solid;
+}
+.search:hover,
+.currentTemp:hover {
+  cursor: pointer;
+  background: #596aca;
+  color: white;
+}
+.card-text {
+  margin-bottom: 10px;
+}
+.today {
+  text-align: center;
+  width: 60%;
+  /* width: 40rem; */
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border-width: thick;
+  border-color: #1ab2a8;
+  color: #1ab2a8;
+  font-size: 25px;
+  padding: 10px 40px;
+}

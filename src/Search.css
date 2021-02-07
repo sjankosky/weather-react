@@ -1,0 +1,27 @@
+form {
+  text-align: center;
+}
+.line {
+  border-top: 4px solid #4d94ce;
+  opacity: 60%;
+}
+.enterCity {
+  border-color: #596aca;
+  border-width: medium;
+  border-style: solid;
+}
+.search,
+.currentTemp {
+  background: white;
+  color: #596aca;
+  border-color: #596aca;
+  transition: all 150ms ease-in-out;
+  border-width: medium;
+  border-style: solid;
+}
+.search:hover,
+.currentTemp:hover {
+  cursor: pointer;
+  background: #596aca;
+  color: white;
+}

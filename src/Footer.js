@@ -12,7 +12,7 @@ export default function Footer() {
         Sarah Jankosky
       </a>{" "}
       and is{" "}
-      <a href="https://github.com/sjankosky/My-Weather-App" target="_blank">
+      <a href="https://github.com/sjankosky/weather-react" target="_blank">
         open-sourced on GitHub
       </a>{" "}
       and hosted on Netlify

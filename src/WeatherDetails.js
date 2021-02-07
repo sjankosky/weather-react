@@ -7,22 +7,22 @@ export default function WeatherDetails() {
       <ul class="list-group list-group-horizontal-sm">
         <li class="list-group-item-inner">
           <button type="button" class="btn btn-warning">
-            Sunrise: <span id="sunrise"></span>
+            Sunrise: 7:00 <span id="sunrise"></span>
           </button>
         </li>
         <li class="list-group-item-inner">
           <button type="button" class="btn btn-dark">
-            Sunset: <span id="sunset"></span>
+            Sunset: 17:00 <span id="sunset"></span>
           </button>
         </li>
         <li class="list-group-item-inner">
           <button type="button" class="btn btn-secondary">
-            Humidity: <span id="humidity"></span>%
+            Humidity: 34<span id="humidity"></span>%
           </button>
         </li>
         <li class="list-group-item-inner">
           <button type="button" class="btn btn-info">
-            Wind: <span id="wind"></span>mph
+            Wind: 5<span id="wind"></span>mph
           </button>
         </li>
       </ul>

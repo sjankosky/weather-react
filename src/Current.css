@@ -54,3 +54,16 @@ current-date {
   font-size: 25px;
   padding: 10px 40px;
 }
+.current-date {
+  color: #5a6275;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 1;
+}
+.current-date:first-letter {
+  text-transform: capitalize;
+}
+.city-date-position {
+  margin-top: 25px;
+  padding: 0;
+}

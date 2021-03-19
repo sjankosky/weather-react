@@ -41,7 +41,6 @@ export default function Current(props) {
                   <CurrentTemp fahrenheit={props.data.temperature} />
                 </div>
               </div>
-              {/* <WeatherDetails /> */}
               <div class="extra">
                 <ul class="list-group list-group-horizontal-sm">
                   <li class="list-group-item-inner">

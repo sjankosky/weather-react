@@ -11,8 +11,7 @@ current-date {
   margin-top: 25px;
   padding: 0;
 }
-#current-temp,
-.formatDegree {
+#current-temp {
   font-size: 30px;
 }
 .formatUnits {
@@ -51,7 +50,7 @@ current-date {
   border-width: thick;
   border-color: #1ab2a8;
   color: #1ab2a8;
-  font-size: 25px;
+  font-size: 30px;
   padding: 10px 40px;
 }
 .current-date {
@@ -66,4 +65,8 @@ current-date {
 .city-date-position {
   margin-top: 25px;
   padding: 0;
+}
+
+.list-group{
+  padding-top: 10px;
 }

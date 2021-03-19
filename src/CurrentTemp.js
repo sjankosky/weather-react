@@ -13,10 +13,9 @@ export default function CurrentTemp(props) {
   }
   if (unit === "fahrenheit") {
     return (
-      <div>
+      <div class="current-temp">
         <div class="col">
-          <span className="current-temp">{props.fahrenheit}</span>
-          {/* <span class="formatDegree">°</span> */}
+          <span id="current-temp">{props.fahrenheit}</span>
           <span className="unit">
             °F |{" "}
             <a href="/" onClick={convertToCelsius}>
@@ -29,7 +28,7 @@ export default function CurrentTemp(props) {
   } else {
     let celsius = ((props.fahrenheit - 32) * 5) / 9;
     return (
-      <div>
+      <div class="current-temp">
         <div class="col">
           <span id="current-temp">{Math.round(celsius)}</span>
           <span className="unit">
@@ -39,7 +38,6 @@ export default function CurrentTemp(props) {
             </a>{" "}
             | °C
           </span>
-          <img src="" alt="" id="icon" />
         </div>
       </div>
     );
